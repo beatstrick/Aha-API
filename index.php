@@ -72,7 +72,7 @@ $h720 = $aha['video']['streamingInfo']['videoAssets']['mpeg'][0]['url']; // 720p
 
 
 
- $apii = array("created_by" => "Avishkar Patil", "id" => $id, "lang" => $lang, "title" => $title, "description" => $des, "landscape" => $land, "portrait" => $pro, "hls" => $hls, "270p" => $h270, "360p" => $h360, "720p" => $h720, "subtitle" => $srt);
+ $apii = array("created_by" => "Beats Trick", "id" => $id, "lang" => $lang, "title" => $title, "description" => $des, "landscape" => $land, "portrait" => $pro, "hls" => $hls, "270p" => $h270, "360p" => $h360, "720p" => $h720, "subtitle" => $srt);
 
  $api =json_encode($apii, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
 
@@ -84,7 +84,7 @@ echo $api;
 
 }
 else{
-  $ex= array("error" => "Something went wrong, Check URL", "created_by" => "Avishkar Patil" );
+  $ex= array("error" => "Something went wrong, Check URL", "created_by" => "Beats Trick" );
   $error =json_encode($ex);
 
   echo $error;
